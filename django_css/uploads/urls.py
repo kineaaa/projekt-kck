@@ -7,6 +7,8 @@ from uploads.core import views
 urlpatterns = [
     path('', views.home, name='home'),
     path('temat1/', views.temat1, name='temat1'),
-    path('about/', views.about, name='about'),
-    path('contact/', views.contact, name='contact'),
+    path('temat2/', views.temat2, name='temat2'),
+    path('temat3/', views.temat3, name='temat3'),
+    path('temat4/', views.temat4, name='temat4'),
+
 ]
