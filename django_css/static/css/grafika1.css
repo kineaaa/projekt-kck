@@ -1,0 +1,73 @@
+body
+{
+    background-color: rgb(48, 48, 48);
+    color:rgb(200, 200, 200);
+    font-family: 'Roboto Slab', serif;
+    font-size: 25px;
+}
+#cont
+{
+    width:1220px;
+    margin-left: auto;
+    margin-right: auto;   
+    float: center;
+}
+.logo
+{
+    margin-top: 20px;
+    float: left;
+    width: 1260px;
+    height: 120px;
+    font-size: 90px;
+    text-align: right;
+    background-color: rgb(48, 48, 48) ;
+}
+.logo:hover
+{
+    background-color: rgb(40, 40, 40) ;
+}
+a.tilelink
+{
+    color: lavender;
+    text-decoration: none;
+    display: block;
+    width: 1200px;
+    height: 120px;
+    padding-top: 15px;
+
+}
+
+h1
+{
+    border-style: ridge;
+}
+
+h1.tytul
+{
+    color: burlywood;
+    text-align: center;
+    font-size: 70px;
+    border-color: burlywood;
+}
+
+h1.podtytul
+{
+    color: rgb(195, 247, 192);
+    text-align: center;
+    font-size: 50px;
+    border-color: rgb(195, 247, 192);
+
+}
+
+a.tekst
+{
+    text-align: justify;
+    font: 30px;
+
+}
+img
+{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left:calc(300px/2);
+}
