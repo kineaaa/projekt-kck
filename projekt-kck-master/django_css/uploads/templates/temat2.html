@@ -1,0 +1,91 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang = "pl">
+<head>
+
+    <meta charset="8">
+    <title> Nauka Programowania </title>
+    <meta name="description" content="Strona poświęcona nauce programowania">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <link rel="stylesheet" href="{% static 'css/grafika1.css' %}" type="text/css"/>
+
+</head>
+<body>
+    <div id="cont">
+        <div class="rectangle">
+                <div class="logo">
+                    <a class="tilelink" href="index.html">
+                        NAUKA PROGRAMOWANIA
+
+                    </a>
+                    <br>
+                </div>
+                <div style="clear: both;"></div>
+            </div>
+    <div class="square">
+      <br>
+        <a class="tekst"> Istnieją dwie aktualne wersje Pythona: 2 i 3. Wersja 3 jest poprawioną 2 i zawiera nowe przydatne fukncjonalności. Istnieje wiele dodatkowych pakietów, które przenoszą programy z wersji 2 do 3. Może się też zdarzyć, że dodatkowe pakiety są niedostępne w którejś z wersji (częściej w wersji 3, ponieważ jest nowsza a niektórzy twórcy porzucili swoje pakiety lub po prostu nie wydali ich na którąś z wersji). Nasz  samouczek zawiera przykłady w wersji 2, ale w miarę możliwości wskażemy różnice z wersją 3. </a>
+        <h1 class="podtytul"> Instalacja </h1>
+        <a class="tekst"> Jeśli używasz systemu operacyjnego z rodziny Linux, najprawdopodobniej Pythona w wersji 2 masz domyślnie zainstalowanego i gotowego do pracy. Jeśli nie, zainstaluj go w sposób odpowiedni dla swojego systemu (instrukcje znajdziesz na stronie python.org).
+Jeśli zaś używasz Windowsa, instalator z wyżej podanej strony zrobi wszystko automatycznie. Polecamy mimo wszystko nie zmieniać domyślnej lokalizacji instalacji Pythona.
+Na komputery z systemem MacOS X również istnieje instalator, który także nie powinien sprawić problemów.</a>
+        <br>
+
+        <img src="https://www.flynerd.pl/wp-content/uploads/2016/12/python_instalacja.png" alt="Przy instalacji warto zaznaczyć pole 'Add Python to PATH'" width='900px'>
+
+        <br>
+        <br>
+        <a class="tekst"> <center> Instalując pamiętaj o zaznaczeniu opcji <font color="red"> Add Python 3.7 to PATH </font>.</center>
+        <h1 class="podtytul"> Sprawdź czy działa (Hello World) </h1>
+
+        <a class="tekst "> Aby sprawdzić czy Python został poprawnie zainstalowany uruchom konsolę (na systemach MacOS i linux) lub znajdź pythona wśród zainstalowanych programów (na Windows).
+          Na linuksie na pewno jest też dostępny program terminalowy, n.p. gnome-terminal, konsole, xterm lub podobny. Jeśli twoja dystrybucja nie ma żadnego z tych programów, to na pewno informuje na swojej stronie jaki program realizuje tę funkcję.
+          Na Windowsie konsolę otwiera się prawie równie prosto. W dowolnym folderze należy wcisnąć klawisz Shift oraz kliknąć prawy przycisk myszy. Powinna pojawić się nowa opcja umożliwiająca uruchomienie konsoli. (jeśli robisz to poraz pierwszy prawdopodobnie czcionka będzie praktycznie niewidoczna, kilkając prawym przyciskiem na pasek stanu możemy to zmienić klikając "domyślne" lub "właściwości").</a>
+        <h1 class="podtytul"> UWAGA: </h1>
+        <a class="tekst"> Składnia Pythona, w przeciwieństwie do innych języków programowania, nie jest obojętna na znaki białe, co dla Ciebie znaczy tyle, że musisz bardzo uważać na wszelkie spacje, tabulatory na początku linii oraz na "entery". Jak na razie na początku linii nie powinno być żadnego znaku białego. Pomagają tego pilnować lepsze edytory tekstu (o czym niżej).</a>
+        <br>
+        <br>
+
+        <a class="tekst"> Po otwarciu konsoli należy wpisać słowo python. To otworzy nam interaktywny interpreter Pythona. Jeśli nic się nie stało oznacza to najprawdopodoniej brak dopisanego folderu instalacji Pythona do  ścieżki środowiskowej. W przypadku Windowsa należy we właściwościach komputera znaleźć "Zmienne środowiskowe" i edytując zmienną PATH dopisać na końcu średnik a następnie ścieżkę do katalogu bin w miejscu w którym zainstalowaliśmy Pythona. Sprawdź jak to zrobić w sposób odpowiedni dla Twojego systemu, w internecie znajduje się wiele instrukcji jak to zrobić.</a>
+        <br>
+        <br>
+        <a class="tekst"> No dobrze, mamy uruchomiony interpreter ale co z tego? Właściwie to bierzmy się za pierwszy program, nie ma na co czekać. Nie odchodząc od tradycji pierwszym co napiszemy będzie "Hello World" czyli program który potrafi tylko (lub aż) wyświetlić takie przywitanie ze światem.</a>
+        <br>
+        <br>
+        <a class="tekst"> Wpisz:
+          <br>
+          <br><center><font color="orange"> print</font> <font color="powderblue"> "Hello World"</font></center>
+        <br>
+        <br>
+        <a class="tekst"> i wciśnij F5 (Fn i F5 jednocześnie) </a>
+        <br>
+        <a class="tekst"> Co się stało? Jak widać na ekranie pojawił się napis "Hello world". Czemu? To widać na pierwszy rzut oka na naszą pierwszą linijkę. Polecenie print każe Pythonowi "wydrukować" na ekranie to co następuje dalej czyli napis "Hello World". Użyliśmy tutaj cudzyłowu - zapamiętaj, napisy zawsze należy umieszczać wewnątrz nich! Inaczej program się nie wykona. Zresztą sam sobie sprawdź :P i pamiętaj, że jeśli masz ochotę odejść od samouczka i poeksperymentować na własną rękę jest to jak najbardziej wskazane. </a>
+        <br>
+        <br>
+        <a class="tekst"> Interpretera możesz używać też jak kalkulatora. Oto podstawowe operacje (możesz także używać nawiasów do określania kolejności wykonywania działań): </a>
+        <a class="tekst">
+          <br> - +dodawanie
+          <br> - -odejmowanie
+          <br> - /dzielenie
+          <br> - //dzielenie całkowite(bez reszty)
+          <br> - %reszta z dzielenia
+          <br> - *mnożenie
+          <br> - **potęgowanie
+          <br>
+          <br> UWAGA:
+          <br> przy operacjach dzielenia jest bardzo istotna różnica w wersjach Pythona 2 i 3. W wersji 2  znak / działa różnie w zależności od tego czy mamy do czynienia z liczbą całkowitą czy nie. Dla spójności z wynikami w wersji 3 warto  zawsze pisać liczby całkowite w formie 8.0 zamiast 8 aby uzyskać ten sam  wynik dzielenia w obu wersjach . Jest to związane z typami o czym będziemy mówić w rozdziale Typy.
+          <br>
+          <br> Pewnie zastnawiasz się czy wszystkie programy pisze się tak w interaktywnym interpreterze? Otóż wcale niekoniecznie. Programy wpisane w interpreterze nie są nigdzie zapisywane, a po co komu program który znika po wyłączeniu okienka z terminalem? Jeśli chcesz zachować treść programu, wystarczy zapisać w zwykłym pliku tekstowym. Otwórz notatnik (lub inny edytor _tekstowy_) i wpisz to samo co wpisałeś w interpreterze, zapisz plik koniecznie z rozszerzeniem .py, w folderze w którym zapisałeś plik otwórz terminal i wpisz python nazwa_pliku_który_przed_chwilą_zapisałeś.py
+          <br>
+          <br> Powienien wyświetlić się napis tak samo jak za poprzednim razem.
+          <br>
+          <br> Jeśli przeszedłeś przez cały ten wstęp, masz już działający interpreter Pythona i wiesz jak napisać i uruchomić pierwszy program. Gratulacje!
+          <br> Zapraszamy do kolejnego tematu!
+         </a>
+    </div>
+
+    </div>
+
+
+</body>
+</html>

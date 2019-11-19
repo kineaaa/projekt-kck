@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang = "pl">
+<head>
+
+    <meta charset="8">
+    <title> Nauka Programowania </title>
+    <meta name="description" content="Strona poświęcona nauce programowania">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <link rel="stylesheet" href="{% static 'css/grafika1.css' %}" type="text/css"/>
+
+</head>
+<body>
+    <div id="cont">
+        <div class="rectangle">
+                <div class="logo">
+                    <a class="tilelink" href="index.html">
+                        NAUKA PROGRAMOWANIA
+                    </a>
+                </div>
+                <div style="clear: both;"></div>
+            </div>
+    <div class="square">
+      <h1 class="tytul"> Podstawy podstaw </h1>
+      <h1 class="podtytul"> </h1>
+      <a class="tekst ">Poprzedni program który wyświetlał napis był raczej mało użyteczny. Napis "Hello world" wyświetlił się i na tym koniec. Jeśli chcieli byśmy raz jeszcze go wyświetlić ponownie musieli byśmy wpisać: <font color="orange"> print</font> <font color="powderblue">"Hello world"</font> Nie jest to specjalnie uciążliwe, bo napis jest bardzo krótki, załóżmy więc że chcemy wyświetlić większą ilość tekstu dwa razy.
+        <br>
+        <br> "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed odio sed ante consequat vestibulum. Donec pellentesque non orci in viverra. Sed quis ornare est."
+        <br>
+        <br> Co z takim tekstem? No niezbyt fajnie wpisywać go więcej niż raz prawda? Tak, owszem, można go skopiować, ale kopiowanie podczas programowania  często prowadzi do błędów, więc lepiej go unikać. Co więc jeśli chcemy powyższy tekst wyświetlić dwa razy bez kopiowania tego kodu?
+        <br>
+        <br>
+        <font color="orange">print</font><font color="powderblue"> "Lorem ipsum ..."</font>
+        <br>
+        <br>Już śpieszę z pomocą. Możemy sobie ten tekst zapisać w naszym programie pod jakąś nazwą (trochę tak jak byśmy zapisali go w pliku) i używać go za pomocą jego nazwy. Wydaje mi się że to dość naturalne i intuicyjne.
+        <br>Przykład:
+        <br>
+        <br> tekst <font color="green"> = </font><cont color="powderblue">"Lorem ipsum dolor sit amet, ..."</font>
+        <br><font color="orange"> print</font> tekstu
+        <br><font color="orange"> print tekst</font>
+        <br>
+        <br>A teraz przeanalizujmy ten kod:
+        W linicje pierwszej mówimy że tekst to będzie pewna #zmienna która ma być równa "Lorem ipsum ..."
+        <br>
+        <br>Wszędzie tam, gdzie wpiszemy  tekst jako nazwę zmiennej będzie tak jak byśmy wpisali "Lorem ipsum ..."
+        <br>
+        <br>Zwróć uwagę na brak cudzysłowów. Jeśli by tam były, to interpreter wyświetlił by słowo "tekst" zamiast "Lorem ipsum ..."
+        <br>
+        <br>Tak samo możesz zrobić z liczbami, co pozwala zapisać sobie wynik jakiegoś bardzo długiego wyrażenia, żeby móc użyć go w jakimś miejscu w programie np. wyobraźmy sobie sytuację w której liczymy całkowity koszt podróży samochodem, z przejazdem przez autostradę i z przeprawą promową.
+        <br>
+        <br>Mamy do przejechania najpierw 67 km do autostrady, następnie 124 km autostradą, potem drogą gruntową 11.7 km do miejsca przeprawy promowej.
+        <br>Koszt paliwa to 8.50
+        <br>Cena za kilometr na autostradzie to 0.17
+        <br>Koszt przeprawy to 50
+        <br>
+        <br>Załóżmy, że samochód na zwykłej drodze spala 0.1 litra na kilometr 0.15 na autostradzie i 0.18 na drodze gruntowej.
+        <br>
+        <br>Chcemy podzielić koszty na kilka osób, ale nie wiemy jeszcze ile osób zdecyduje się nam towarzyszyć. Policzmy więc sobie sam koszt i zapiszmy go na zmienną.
+        <br>
+        <br>paliwo = 8.5 * (67*0.1 + 124*0.15 + 11.7*0.2)
+        <br>autostrada = 124*0.17
+        <br>prom = 50
+        <br>koszt = paliwo + autostrada + prom
+        <br><font color="orange">print</font> koszt
+        <br><font color="orange">print</font> koszt / <font color="orange">2</font>
+        <br><font color="orange">print</font> koszt / <font color="orange">3</font>
+        <br><font color="orange">print</font> koszt / <font color="orange">4</font>
+        <br><font color="orange">print</font> koszt / <font color="orange">5</font>
+        <br>
+        <br>Jak widzisz jest to całkiem praktyczne i użyteczne, bo  nie ma sensu zabierać aż 4 dodatkowych osób (koszt podróży nie będzie o wiele niższy niż przy zabraniu 3 a w samochodzie będzie więcej miejsca). Możesz też wyświetlić sobie ile łącznie zapłacisz za paliwo, ile za przejazd autostradą i ile za przeprawę promową.
+        <br>
+        <br>Zmienne mogą przechowywać dla nas różne rzeczy, wiesz już o liczbach i o napisach, w kolejnym rozdziale powiemy nieco więcej o #typach
+
+</a>
+        <br>
+
+
+
+        <br>
+
+    </div>
+
+    </div>
+
+
+</body>
+</html>

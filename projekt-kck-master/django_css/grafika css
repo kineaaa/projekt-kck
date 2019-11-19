@@ -1,0 +1,140 @@
+body
+    {
+    background-color: rgb(48, 48, 48);
+    color: lavender;
+    font-family: 'Roboto Slab', serif;
+    font-size: 25px;
+    }
+
+#cont
+    {
+    width:1200px;
+    margin-left: auto;
+    margin-right: auto;   
+    }
+
+.rectangle
+{    width: 1160px;
+    margin: 20px;
+}
+
+.square
+{
+    width: calc(1200px *50% *1);
+    float: left;
+    margin: auto;
+}
+
+.logo
+{
+    float: left;
+    width: 1200px;
+    height: 120px;
+    font-size: 80px;
+    text-align: center;
+    background-color: rgb(55, 138, 247) ;
+}
+.logo:hover
+{
+    background-color:rgb(25, 98, 207) ;
+}
+
+.title1
+{
+    margin: 20px;
+    width: 560px;
+    text-align: center;
+    font-size: 30px;
+    height: 150px;
+    background-color: rgb(131,58,180);
+    float: left;
+}
+.title2
+{
+    margin: 20px;
+    width: 560px;
+    text-align: center;
+    font-size: 30px;
+    height: 150px;
+    background-color:rgb(231, 91, 196);
+    float: left;
+}
+
+.title3
+{
+    margin: 20px;
+    width: 580px;
+    text-align: center;
+    font-size: 30px;
+    height: 150px;
+    background-color:rgb(252, 195, 30);
+    float: left;
+}
+
+.title4
+{
+    margin: 20px;
+    width: 580px;
+    text-align: center;
+    font-size: 30px;
+    height: 150px;
+    background-color:rgb(245, 93, 33);
+}
+
+.title5
+{
+    margin: 10px;
+    width: 480px;
+    height: calc(480px / 1.618);
+    background-color:rgb(70, 70, 70);
+    float: left;
+}
+
+.title1:hover
+{
+    background-color:rgb(131,58,220) ;
+}
+
+.title2:hover
+{
+    background-color:rgb(201, 61, 166);
+}
+
+.title3:hover
+{
+    background-color:rgb(252, 230, 50);
+}
+
+.title4:hover
+{
+    background-color:rgb(350, 33, 33);
+}
+
+.title5:hover
+{
+    background-color: rgb(100, 100, 100);
+}
+
+
+
+a.tilelink
+{
+    color: lavender;
+    text-decoration: none;
+    display: block;
+    width: 1200px;
+    height: 105px;
+    padding-top: 15px;
+
+}
+
+a.tilelink1
+{
+    color: lavender;
+    text-decoration: none;
+    display: block;
+    width: 580px;
+    height: 150px;
+    padding-top: 15px;
+
+}

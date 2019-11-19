@@ -1,0 +1,172 @@
+body
+    {
+    background-color: rgb(48, 48, 48);
+    color: lavender;
+    font-family: 'Roboto Slab', serif;
+    font-size: 25px;
+    }
+
+#cont
+    {
+    width:1260px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+.rectangle
+{    width: 1220px;
+    margin: 20px;
+}
+
+.square
+{
+    width: calc(1200px *50% *1);
+    float: left;
+    margin: auto;
+}
+
+.logo
+{
+    float: left;
+    width: 1200px;
+    height: 120px;
+    font-size: 90px;
+    text-align: right;
+    background-color: rgb(48, 48, 48) ;
+}
+.logo:hover
+{
+    background-color: rgb(40, 40, 40) ;
+}
+
+.logo1
+{
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 1200px;
+    height: 120px;
+    font-size: 80px;
+    text-align: center;
+    background-color:green ;
+}
+.logo2
+{
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 1200px;
+    height: 120px;
+    font-size: 30px;
+    text-align: end;
+    background-color: rgb(48, 48, 48) ;
+}
+.title1
+{
+    margin: 20px;
+    margin-top: 0px;
+    width: 590px;
+    text-align: center;
+    font-size: 30px;
+    height: 150px;
+    background-color: rgb(131,58,180);
+    float: left;
+}
+.title2
+{
+    width: 590px;
+    text-align: center;
+    font-size: 30px;
+    height: 150px;
+    background-color:rgb(231, 91, 196);
+    float: left;
+}
+
+.title3
+{
+    margin-right: 20px;
+    margin-top: 20px;
+    width: 590px;
+    text-align: center;
+    font-size: 30px;
+    height: 150px;
+    background-color:rgb(252, 195, 30);
+    float: left;
+}
+
+.title4
+{
+    margin-top: -150px;
+    margin-left: 20px;
+    width: 590px;
+    text-align: center;
+    font-size: 30px;
+    height: 150px;
+    background-color:rgb(245, 93, 33);
+    float: left;
+}
+
+.title5
+{
+    margin: 20px;
+    width: 480px;
+    height: calc(480px / 1.618);
+    background-color:rgb(70, 70, 70);
+    float: left;
+}
+
+.title1:hover
+{
+    background-color:rgb(131,58,220) ;
+}
+
+.title2:hover
+{
+    background-color:rgb(201, 61, 166);
+}
+
+.title3:hover
+{
+    background-color:rgb(252, 230, 50);
+}
+
+.title4:hover
+{
+    background-color:rgb(350, 33, 33);
+}
+
+.title5:hover
+{
+    background-color: rgb(100, 100, 100);
+}
+
+
+
+a.tilelink
+{
+    color: lavender;
+    text-decoration: none;
+    display: block;
+    width: 1200px;
+    height: 170px;
+    padding-top: 15px;
+
+}
+
+a.tilelink1
+{
+    color: lavender;
+    text-decoration: none;
+    display: block;
+    width: 580px;
+    height: 150px;
+    padding-top: 15px;
+
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}

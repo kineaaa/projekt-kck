@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang = "pl">
+<head>
+
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
+    <meta charset="8">
+    <title> Nauka Programowania </title>
+    <meta name="description" content="Strona poświęcona nauce programowania">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+</head>
+<body>
+
+   <div id="cont">
+
+        <div class="rectangle">
+            <div class="logo">
+                <a class="tilelink" href="">
+                    NAUKA PROGRAMOWANIA
+                </a>
+            </div>
+            <div style="clear: both;"></div>
+        </div>
+
+        <div class="square">
+            <div class="title1">
+                <a class="tilelink1" href="{% url 'temat1' %}">
+                    WSTĘP
+                </a>
+            </div>
+
+            <div class="title2">
+                <a class="tilelink1" href="{% url 'temat2' %}">
+                    INSTALACJA
+                </a>
+            </div>
+
+            <div class="title3">
+                <a class="tilelink1" href="{% url 'temat3' %}">
+                    TYPY
+                </a>
+            </div>
+
+            <div class="title4">
+                 <a class="tilelink1" href="{% url 'temat4' %}">
+                    PODSTAWY PODSTAW
+                </a>
+            </div>
+        <div style="clear: both;"></div>
+
+        <div class="logo1">
+                <a class="tilelink">
+                    Coming soon
+                </a>
+         </div>
+
+         <div class="logo2">
+                <a class="tilelink">
+                     AUTORZY: Robert Kozak i Karolina Stefańska
+                </a>
+        </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   </div>
+
+</body>
+
+</html>
